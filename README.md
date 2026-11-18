@@ -1,13 +1,13 @@
-# Naveen & Dharshini — Premium Wedding Invitation
+# Gokul & Indhuja — Premium Wedding Invitation
 
 A responsive Next.js App Router wedding reception invitation built with React, TypeScript and custom CSS.
 
 ## Event details currently configured
 
-- Couple: D. Naveen & S. Dharshini
-- Reception: Saturday, 31 October 2026
+- Couple: Gokul & Indhuja
+- Reception: Sunday, 13 December 2026
 - Time: 6:00 PM – 9:00 PM (India Standard Time)
-- Venue: PSR Mahal, Karur, Tamil Nadu, India
+- Venue: Sri Vaasavi Mahal, Rasipuram, Tamil Nadu, India
 
 These details are centralized in `app/page.tsx` near the top of the file. Verify them before publishing.
 
@@ -46,7 +46,7 @@ To send responses to WhatsApp:
 Example:
 
 ```env
-NEXT_PUBLIC_RSVP_WHATSAPP=919876543210
+NEXT_PUBLIC_RSVP_WHATSAPP=***********
 ```
 
 This opens a pre-filled WhatsApp message; it does not store responses in a database. For private RSVP collection, connect a secure form service or backend and validate submissions server-side.
